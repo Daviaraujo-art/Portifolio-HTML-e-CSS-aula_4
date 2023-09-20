@@ -31,7 +31,7 @@ strong{
 }
 
 .apresentacao {
-     margin: 10%;
+     margin: 10% 15%;
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -40,6 +40,9 @@ strong{
 .apresentacao__conteudo {
 
      width: 615px;
+     display:flex;
+     flex-direction: column;
+     gap: 40px;
 }   
 
 .apresentacao__conteudo__titulo {
@@ -65,4 +68,17 @@ strong{
 
      display: flex;
      justify-content: space-between;
+}
+
+.apresentacao__links__link {
+     background-color: #fcf8f8;
+     width: 280px;
+     text-align: center;
+     border-radius: 16px;
+     font-size: 24px;
+     padding: 21.5px 0;
+     text-decoration: none;
+     color: black;
+     font-family: 'Montserrat', sans-serif;
+
 }
