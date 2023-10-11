@@ -114,3 +114,13 @@ strong{
      text-align: center;
      font-family: 'Krona One', sans-serif;
 }
+
+.localizacao_titulo {
+     font-family: 'Krona One', sans-serif;
+     padding: 20px;
+}
+.localizacao {
+     text-align:center;
+     padding:20px;
+     font-size: 20px;
+}
