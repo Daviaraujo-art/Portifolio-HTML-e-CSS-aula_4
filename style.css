@@ -124,3 +124,199 @@ strong{
      padding:20px;
      font-size: 20px;
 }
+
+/* BLOG */
+
+.blog{
+
+    padding:80px 10%;
+
+}
+
+/* HERO */
+
+.blog__hero{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:24px;
+
+    margin-bottom:80px;
+
+}
+
+.blog__titulo{
+
+    font-size:56px;
+
+    line-height:1.2;
+
+    max-width:900px;
+
+    font-family:'Krona One', sans-serif;
+
+}
+
+.blog__descricao{
+
+    font-size:20px;
+
+    color:#cfcfcf;
+
+    max-width:700px;
+
+    line-height:1.7;
+
+}
+
+/* POSTS */
+
+.blog__posts{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(320px, 1fr));
+
+    gap:40px;
+
+}
+
+/* CARD */
+
+.blog__card{
+
+    background:#111;
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    transition:0.4s;
+
+}
+
+.blog__card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#ff4d6d;
+
+    box-shadow:
+        0 0 30px rgba(255,77,109,0.15);
+
+}
+
+.blog__card__imagem{
+
+    width:100%;
+
+    height:240px;
+
+    object-fit:cover;
+
+}
+
+/* CONTEÚDO */
+
+.blog__card__conteudo{
+
+    padding:32px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.blog__categoria{
+
+    color:#ff4d6d;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+}
+
+.blog__card__titulo{
+
+    font-size:28px;
+
+    line-height:1.4;
+
+    font-family:'Krona One', sans-serif;
+
+}
+
+.blog__card__texto{
+
+    color:#cfcfcf;
+
+    line-height:1.7;
+
+    font-size:18px;
+
+}
+
+/* BOTÃO */
+
+.blog__card__botao{
+
+    width:max-content;
+
+    padding:14px 24px;
+
+    border-radius:12px;
+
+    border:1px solid #ff4d6d;
+
+    text-decoration:none;
+
+    color:white;
+
+    transition:0.3s;
+
+    font-weight:600;
+
+}
+
+.blog__card__botao:hover{
+
+    background:#ff4d6d;
+
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+    .blog{
+
+        padding:60px 8%;
+
+    }
+
+    .blog__titulo{
+
+        font-size:40px;
+
+    }
+
+    .blog__descricao{
+
+        font-size:18px;
+
+    }
+
+}
