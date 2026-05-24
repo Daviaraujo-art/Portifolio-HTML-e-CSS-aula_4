@@ -857,3 +857,23 @@ strong{
      }
 
 }
+
+.slider-projetos::before{
+
+     content:"";
+
+     position:absolute;
+
+     width:350px;
+
+     height:350px;
+
+     background:rgba(255,77,109,0.12);
+
+     filter:blur(120px);
+
+     border-radius:50%;
+
+     z-index:-1;
+
+}
